@@ -2,7 +2,7 @@
 
 > End-to-end customer analytics project: **SQL → Python → Power BI**, identifying the most valuable customer segments and quantifying churn risk for a UK-based online gift and home-decor retailer.
 
-![Business Overview](images/01_business_overview.png)
+![Business Overview](https://raw.githubusercontent.com/YOUR-USERNAME/ikea-gifting-customer-analytics/main/images/01_business_overview.png)
 
 ---
 
