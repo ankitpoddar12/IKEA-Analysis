@@ -57,7 +57,7 @@ Identify the most valuable customer segments and quantify churn risk across the 
 |---|---|
 | Data extraction & cleaning | SQL |
 | RFM scoring & segmentation | Python (pandas) |
-| Visualization | Power BI (DAX, slicers, page navigation) |
+| Visualisation | Power BI (DAX, slicers, page navigation) |
 | Version control | Git / GitHub |
 
 ## 🔄 Methodology
@@ -96,24 +96,20 @@ Raw data (UCI)  →  SQL cleaning & dedup  →  Python RFM scoring  →  Churn f
 ## 📊 Dashboard Walkthrough
 
 ### Page 1 – Business Overview
-![Business Overview](images/01_business_overview.png)
+![Business Overview](<img width="1347" height="847" alt="image" src="https://github.com/user-attachments/assets/6ff140fe-13ab-4cc7-a8a8-7e4d25e7fdd1" />)
 
 - **KPI cards:** Total Customers, Total Revenue, Churn %, Avg Customer Value
 - **Revenue by segment** (bar + pie, toggle between Revenue/Customer views)
 - **Revenue trends** by month, quarter, and year
 
 ### Page 2 – RFM Analysis
-![RFM Analysis](images/02_rfm_analysis.png)
+![RFM Analysis](<img width="1352" height="847" alt="image" src="https://github.com/user-attachments/assets/6d6910f0-7d04-40d2-a3d8-2fa4e357fb8c" />
+)
 
 - **Country Performance Summary** with heat-mapped average R, F, and M scores
 - **Top 5 countries by average customer value**
 - **Churn %** by month, quarter, and year
 - Toggle between Segment and Country views
-
-### Page 0 – Home / Navigation
-![Home](images/00_home.png)
-
-*(Add screenshot of the landing page.)*
 
 ## 🔍 Key Findings
 
@@ -168,19 +164,9 @@ ikea-gifting-customer-analytics/
     └── Key_Findings_and_Recommendations.pdf
 ```
 
-## ▶️ How to Reproduce
-
-1. Download the dataset from UCI (or use the backup in `data/raw/`).
-2. Run `sql/01_data_cleaning.sql` to produce the cleaned transaction table.
-3. Run `python/02_rfm_segmentation.ipynb` to generate RFM scores, segments, and the churn flag.
-4. Open `powerbi/IKEA_Customer_Analytics.pbix` in Power BI Desktop and refresh the data source to point at `data/processed/`.
-
 ## 👩‍💻 Authors
 
-**Mansi Goel** – Data Analyst  
 Dashboard design: Mansi G. × Ankit P.
-
-🔗 [LinkedIn](#) · 📧 [Email](#)
 
 ---
 *Dataset: Chen, D. (2019). Online Retail II [Dataset]. UCI Machine Learning Repository.*
